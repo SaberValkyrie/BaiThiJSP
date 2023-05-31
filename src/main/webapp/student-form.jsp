@@ -58,11 +58,11 @@
             <label for="name">Phone:</label>
             <input type="text" name="phone" id="phone"  value="${student.phone}"><br><br>
             <label for="name">Address:</label>
-            <input type="text" placeholder="Enter the address" name="address" id="address"  value="${student.phone}"><br><br>
+            <input type="text"  name="address" id="address"  value="${student.address}"><br><br>
             <label for="name">Absent:</label>
-            <input type="text" placeholder="Enter the absent" name="absent" id="absent"  value="${student.absent}"><br><br>
+            <input type="text" name="absent" id="absent"  value="${student.absent}"><br><br>
             <label for="name">Teacher:</label>
-            <input type="text" placeholder="Enter the Teacher Name" name="teachername" id="teachername"  value="${student.teachername}"><br><br>
+            <input type="text" name="teachername" id="teachername"  value="${student.teachername}"><br><br>
             <input type="submit" class="button" value="Update">
             <a href="products" class="button">Cancel</a>
         </form>
